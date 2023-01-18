@@ -14,6 +14,6 @@ public class GamblingSimulation {
 		System.out.println("\nInitialising game...");
 		funds = 100;
 		bet = 1;
-		System.out.println("Funds : $" + funds);
+		 System.out.println("Funds : $" + funds);
 	}
 }
