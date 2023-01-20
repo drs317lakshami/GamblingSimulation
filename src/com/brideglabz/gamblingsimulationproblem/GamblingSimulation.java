@@ -5,7 +5,7 @@ public class GamblingSimulation {
 	public int bet = 0;
 
 	public static void main(String[] args) {
-		System.out.println("Welcome Gambling Simulation Problems");
+		System.out.println("Welcome Gambling Simulation Problem");
 		GamblingSimulation gambler = new GamblingSimulation();
 		gambler.gameInitialise();
 	}
@@ -14,6 +14,6 @@ public class GamblingSimulation {
 		System.out.println("\nInitialising game...");
 		funds = 100;
 		bet = 1;
-		 System.out.println("Funds : $" + funds);
+		System.out.println("Funds : $" + funds);
 	}
 }
